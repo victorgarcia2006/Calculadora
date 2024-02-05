@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+      }
+    </style>
+    <main>
+      <section class="calculadora">
+        <input type="text" class="pantalla" id='display' readonly></input>
+        <div class="teclado">
+          <button class="tecla" id="raiz">√</button>
+          <button class="tecla" id="elevar">^</button>
+          <button class="tecla" id="dividir">/</button>
+          <button class="tecla" id="borrar">
+            <span class="material-symbols-outlined"> backspace </span>
+          </button>
+          <button class="tecla" >7</button>
+          <button class="tecla" >8</button>
+          <button class="tecla" >9</button>
+          <button class="tecla" id="sumar">+</button>
+          <button class="tecla" >4</button>
+          <button class="tecla" >5</button>
+          <button class="tecla" >6</button>
+          <button class="tecla" id="restar">-</button>
+          <button class="tecla" >1</button>
+          <button class="tecla" >2</button>
+          <button class="tecla" >3</button>
+          <button class="tecla" id="multiplicar">*</button>
+          <button class="tecla" >.</button>
+          <button class="tecla" >0</button>
+          <button class="tecla" id="reiniciar">C</button>
+          <button class="tecla" id="igual">=</button>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
